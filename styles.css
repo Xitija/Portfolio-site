@@ -54,6 +54,7 @@ hr {
     border-radius: 0.5rem;
     border: 1px solid var(--lighter-gray);
     background-color: var(--dark-gray);
+    margin: 0.5rem;
 }
 
 /** lists **/
@@ -231,6 +232,10 @@ a.link-secondary:hover{
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
+}
+
+.mark:nth-child(even){
+    background-color: var(--light-gray);
 }
 
 .mark:nth-child(odd){
