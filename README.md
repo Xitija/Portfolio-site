@@ -16,4 +16,4 @@ I am exploring -
 ## Features
 - Showcase of projects and blogs
 
-![Screenshot.](maerk345?raw=true)
+![Screenshot](mark345.png?raw=true)
