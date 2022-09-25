@@ -223,7 +223,20 @@ a.link-secondary:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* padding: 2rem; */
+    padding: 1rem 1rem 0rem 1rem;
+}
+
+.mark h1 {
+    font-size: 1.8rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+.mark p {
+    font-size: 1.3rem;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 0.8rem;
 }
 
 .mark .links {
