@@ -241,7 +241,8 @@ a.link-secondary:hover {
   color: var(--primary-color);
   font-size: larger;
   border: 1px solid var(--primary-color);
-  background-color: var(--light-gray);
+  background-color: #cc8484;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.23);
 }
 
 .project-type a {
@@ -251,7 +252,8 @@ a.link-secondary:hover {
 }
 
 .project-type:hover {
-  background-color: #cc8484;
+  background-color: var(--light-gray);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 /** footer **/
