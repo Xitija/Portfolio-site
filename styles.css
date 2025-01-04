@@ -398,3 +398,11 @@ a.link-secondary:hover {
 .mark:nth-child(odd) {
   background-color: #cc8484;
 }
+
+.redirect-notice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem 0rem 1rem;
+}

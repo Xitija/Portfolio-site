@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+    <title>Redirect Notice</title>
+  </head>
+  <body style="display: flex; flex-direction: column; height: 100vh">
+    <nav class="navigation nav-container">
+      <div class="nav-brand">Kshitija Kadam</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="/">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="/projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="javascript:history.back()">Back</a>
+        </li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <h1 class="hero-heading">Redirect Notice</h1>
+    </header>
+    <section class="redirect-notice">
+      <h1 style="padding: 0rem 2rem">
+        Please note that the application is currently hosted on a free server,
+        which may result in slightly longer load times initially. <br />Thank
+        you for your patience. You will be redirected to the Url Shortener
+        project. If you are not redirected, click
+        <a href="https://simple-backend-qfea.onrender.com/api">here</a>.
+      </h1>
+    </section>
+    <footer class="footer" style="margin-top: auto">
+      <div class="footer-header">Connect with me on</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a class="link" href="https://www.linkedin.com/in/xitija">LinkedIn</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://twitter.com/xitija_">Twitter</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="https://github.com/Xitija">Github</a>
+        </li>
+      </ul>
+    </footer>
+    <script>
+      (function redirect() {
+        setTimeout(() => {
+          console.log("Redirecting...");
+          window.open("https://simple-backend-qfea.onrender.com/api", "_blank");
+        }, 5000); // Wait 5 seconds and then redirect.
+      })();
+    </script>
+  </body>
+</html>
